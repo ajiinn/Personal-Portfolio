@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+  <meta charset="utf-8">
+  <title>AJIN</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  <script src="js/script.js"></script>
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function(){
+        emailjs.init("aR7VKceNZU3XRbMLt");
+    })();
+  </script>
+</head>
+<body>
+
+  <!-- page loader -->
+  <div class="page-loader">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+
+
+   <div class="bg-circles">
+    <div class="circle-1"></div>
+    <div class="circle-2"></div>
+    <div class="circle-3"></div>
+    <div class="circle-4"></div>
+   </div>
+
+  <!-- overplay start -->
+  <div class="overlay">
+
+  </div>
+
+  <div class="main hidden">
+
+
+    <!-- header start  -->
+
+      <header class="header">
+        <div class="container">
+          <div class="row flex-end">
+            <button type="button" class="nav-toggler">
+              <span></span>
+            </button>
+            <nav class="nav">
+              <div class="nav-inner">
+                <ul>
+                  <li><a href="#home" class="nav-item link-item">home</a></li>
+                  <li><a href="#about" class="nav-item link-item">about</a></li>
+                  <li><a href="#portfolio" class="nav-item link-item">portfolio</a></li>
+                  <li><a href="#contact" class="nav-item link-item">contact</a></li>
+             
+                  
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+    <!-- header end  -->
+
+    <section class="home-section align-items-center" id="home">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="home-text">
+            <p>My name is</p>
+            <h1>AJIN C</h1>
+            <h2>Full Stack Developer</h2>
+            <a href="#about" class="btn link-item">more about me</a>
+            <a href="#portfolio" class="btn link-item">portfolio</a>
+          </div>
+          <div class="home-img">
+            <div class="img-box">
+              <img src="img/mainimage1.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section sec-padding" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+             <h2>about me</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="about-img">
+            <div class="img-box">
+              <img src="img/mainimage.png" alt="">
+            </div>
+          </div>
+          <div class="about-text">
+            <p>Energetic computer science specialist skilled in leadership, with a strong foundation in programming logic and cross platform coding. Seeking to leverage solid development skills with a focus on collaboration, 
+              communication ,passion ,and creativity as a programmer. Strong in design and integration with intuitive problem-solving skills. Proficient in C, PYTHON, JAVASCRIPT, and SQL. Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions.</p>
+              <h3>skills</h3>
+              <div class="skills">
+                <div class="skill-item">html</div>
+                <div class="skill-item">css</div>
+                <div class="skill-item">javascipt</div>
+                <div class="skill-item">bootstrap</div>
+                <div class="skill-item">jquery</div>
+                <div class="skill-item">python</div>
+                <div class="skill-item">django</div>
+                <div class="skill-item">Nodejs</div>
+                <div class="skill-item">mysql</div>
+                <div class="skill-item">MongoDB</div>
+                <div class="skill-item">c</div>
+              </div>
+
+              <div class="about-tabs">
+                <button type="button" class="tab-item " data-target="#education">education</button>
+                <button type="button" class="tab-item active" data-target="#experience">experience</button>
+              </div>
+
+
+              <div class="tab-content" id="education">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">2019 - 2022</span>
+                      <h4>Bachelor of Computer Science - <span>University of Calicut</span></h4>
+                      <p>AWH Special College, Kallai, Kozhikode</p>   
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2017 - 2019</span>
+                      <h4>Plus Two - <span>Kerala State Board</span></h4>
+                      <p>PVS HSS Eranhikal</p>   
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2017</span>
+                      <h4>10th - <span>CBSE</span></h4>
+                      <p>Amrita Vidyalayalm Vellimadukunnu</p>   
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-content active" id="experience">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">0.5-year, June 2022 - December 2022</span>
+                    <h4>Python Developer Intern - Aester India Pvt. Ltd, Kochi</h4>
+                    <p>Worked on various areas of Python Development and successfully met the objectives that were set at the beginning of the internship.</p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">January 2023 - Present</span>
+                    <h4>MERN Developer Intern - Maitexa Technologies, Calicut</h4>
+                    <p>Working on back-end and front-end servers by utilizing a solitary programming language i.e JavaScript. Learning the most recent innovation like MongoDB, Express, React, Node</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <a href="Portfolio Resume.pdf" target="_blank" class="btn link-item">download cv</a>
+              <a href="#contact" class="btn link-item">contact me</a>
+
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio-section sec-padding" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>recent work</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/project-1.jpg" alt="">
+            </div>
+            <h3 class="portfolio-item-title">Ecommerce Website</h3>
+            <button type="button" class="btn view-project-btn">view project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>Responsive Ecommerce Website using HTML, CSS, JavaScript</p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>25 Jan 2023</span></li>
+                  <li>technologies used - <span>Html, Css</span></li>
+                  <li>Role - <span>Frontend</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/project-2.jpg" alt="">
+            </div>
+            <h3 class="portfolio-item-title">YouTube Home Page UI</h3>
+            <button type="button" class="btn view-project-btn">view project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>YouTube Home Page using HTML, CSS</p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>3 Sept 2022</span></li>
+                  <li>technologies used - <span>Html, Css</span></li>
+                  <li>Role - <span>Frontend</span></li>
+                  <li>View Online - <span><a href="#" target="_blank">www.domain.com</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/project-3.jpg" alt="">
+            </div>
+            <h3 class="portfolio-item-title">Ecommerce Website</h3>
+            <button type="button" class="btn view-project-btn">view project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>Responsive Ecommerce Website using HTML, CSS, Bootstrap</p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>25 Jan 2023</span></li>
+                  <li>technologies used - <span>Html, Css</span></li>
+                  <li>Role - <span>Frontend</span></li>
+                  <li>View Online - <span><a href="https://ajiinn.github.io/Ecommerce-Website/" target="_blank">Ecommerce Website</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/project-4.jpg" alt="">
+            </div>
+            <h3 class="portfolio-item-title">Photography Website</h3>
+            <button type="button" class="btn view-project-btn">view project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>Responsive Photography Website using HTML, CSS, Bootstrap</p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>22 Jan 2023</span></li>
+                  <li>technologies used - <span>Html, Css</span></li>
+                  <li>Role - <span>Frontend</span></li>
+                  <li>View Online - <span><a href="#" target="_blank">www.domain.com</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/project-5.jpg" alt="">
+            </div>
+            <h3 class="portfolio-item-title">Guess a number Game</h3>
+            <button type="button" class="btn view-project-btn">view project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>Guessing number game using HTML, CSS, Javascript</p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>31 Jan 2023</span></li>
+                  <li>technologies used - <span>Html, Css, JavaScript</span></li>
+                  <li>Role - <span>Frontend</span></li>
+                  <li>View Online - <span><a href="https://ajiinn.github.io/Guess-a-Number-Game/" target="_blank">www.playgame.com</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/project-6.jpg" alt="">
+            </div>
+            <h3 class="portfolio-item-title">SwasthMe</h3>
+            <button type="button" class="btn view-project-btn">view project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>Personal Health Care Web Portal using Python, Django</p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>25 April 2022</span></li>
+                  <li>technologies used - <span>Python, Django</span></li>
+                  <li>Role - <span>Full Stack</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/project-7.jpg" alt="">
+            </div>
+            <h3 class="portfolio-item-title">Rock Paper Scissor Game</h3>
+            <button type="button" class="btn view-project-btn">view project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>Rock Paper Scissor Game against AI</p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>25 April 2022</span></li>
+                  <li>technologies used - <span>HTML, CSS, JavaScript</span></li>
+                  <li>Role - <span>Front end</span></li>
+                  <li>Play game - <span><a href="https://ajiinn.github.io/Rock-Paper-Scissor-game/" target="_blank">www.playrps.com</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+      <section class="contact-section sec-padding" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>contact me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="contact-form">
+                <form method="post">
+                  <div class="row">
+                    <div class="input-group">
+                      <input type="text" id="name" placeholder="Name" class="input-control" autocomplete="off" required>
+                    </div>
+                    <div class="input-group">
+                      <input type="text" id="email_id" placeholder="Email" class="input-control" autocomplete="off" required>
+                    </div>
+                    <div class="input-group">
+                      <input type="text" id="subject" placeholder="Subject" class="input-control" autocomplete="off" required>
+                    </div>
+                    <div class="input-group">
+                      <textarea placeholder="Message" id="message" class="input-control" required></textarea>
+                    </div>
+                    <div class="submit-btn">
+                      <button type="submit" class="btn" id="btn">send message</button>
+                    </div>
+                  </div>
+                </form>
+            </div>
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <h3>Email</h3>
+                <p>ajinc002@gmail.com</p>
+              </div>
+              <div class="contact-info-item">
+                <h3>Phone</h3>
+                <p>91 7012203950</p>
+              </div>
+              <div class="contact-info-item">
+                <h3>follow me</h3>
+                <div class="social-links">
+                  <a href="https://www.facebook.com/profile.php?id=100008932057013" target="_blank"><i class="fab fa-facebook"></i></a>
+                  <a href="https://github.com/ajiinn" target="_blank"><i class="fab fa-github"></i></a>
+                  <a href="https://www.instagram.com/ajinn.c/" target="_blank"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/ajin-c-395a01185" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> 
+
+  </div>
+  
+
+  <div class="portfolio-popup">
+    <div class="pp-inner">
+      <div class="pp-content">
+        <div class="pp-header">
+          <button class="btn pp-close" type="button"><i class='fas fa-times'></i></button>
+          <div class="pp-thumbnail">
+            <img src="img/portfolio/project-1.jpg" alt="">
+          </div>
+          <h3>Ecommerce Website</h3>
+        </div>
+        <div class="pp-body">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script src="js/main.js"></script>
+<!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+<script>
+  // var btn = document.getElementById('btn')
+  //   btn.addEventListener('click', function(e) {
+  //     e.preventDefault()
+  //     var name = document.getElementById('name').value
+  //     var email = document.getElementById('email').value
+  //     var subject = document.getElementById('subject').value
+  //     var message = document.getElementById('message').value
+  //     var body = 'name: '+name + '<br/> email: ' + email + '<br/>' + '<br/> subject' + subject + '<br/> message' + message; 
+
+  //     Email.send({
+  //       Host : "smtp.elasticemail.com",
+  //       Username : "ajinc002@gmail.com",
+  //       Password : "zrengakdsjmsabiq",
+  //       To : 'ajinc002@gmail.com',
+  //       From : email,
+  //       Subject : subject,
+  //       Body : body
+  //   }).then(
+  //     message => alert(message)
+  //   ); 
+  //   })
+    
+</script>
+</body>
+</html>
+
